@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Title Of The Page-->
+	<title>Ninja Studio</title>
+	<!-- Favicon-->
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<!-- CSS Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- FontAwesome CDN Link -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<meta name="viewport" content="width = device-width">
+</head>
+
+<body>
+	<!-- Header-->
+	<!--Header Section Left
+            It includes logo, website name, fav tab and queue Buttons-->
+	<header>
+		<div class="one">
+			<div class="header-left">
+				<!--Logo-->
+				<div id="logo" class="margin-r">
+					<img src="images/logo.jpg" alt="logoImage">
+					<div id="studio-name" class="margin-r">Ninja <br> <b>Studio</b></div>
+				</div>
+
+				<!--Favourite, Queue and Home Button-->
+				<div id="favourite" class="margin-r fav-main"><a href=" ">Favourites</a></div>
+				<div id="favourite" class="margin-r queue"><a href="#queue-content">Queue</a></div>
+				<div id="favourite" class="margin-r back "><a href="#main-content">Back</a></div>
+			</div>
+
+			<!--Header Section Right It includes Search Bar, Notification Icon and Profile image-->
+			<div class="header-right">
+				<div class="search margin-r">
+
+					<!--Search Bar-->
+					<div class="search-content">
+						<i class="fas fa-search icon" id="search-icon"></i>
+						<input id="search" type="text" name="search" placeholder="Search">
+						<i class="fas fa-microphone icon" id="mic-icon"></i>
+					</div>
+				</div>
+
+				<!--Notification Bell and Profile-->
+				<div class="notification margin-r">
+					<i class="fas fa-bell icon margin-r" id="bell-icon"></i>
+					<img id="my-pic" src="images/my-image.png">
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<!--Main Content of the page-->
+	<main>
+		<div class="main-content" id="#main-content">
+			<!--Trending Section-->
+			<div class="trending">
+				<div class="big-1 t-individual">
+					<img src="images/big-1.jpg" class="margin-r">
+				</div>
+				<div class="big-2 t-individual">
+					<img src="images/big-2.jpg" class="margin-r">
+				</div>
+				<div class="big-3 t-individual">
+					<img src="images/big-3.jpg" class="margin-r">
+				</div>
+			</div>
+
+			<!--Latest Release Section-->
+			<h2 style="color: white">Latest Release</h2>
+			<div class="latest-release">
+				<!--Latest Release Section Individual Songs-->
+				<!--Latest Release Song-1-->
+				<div class="card card-a">
+					<div class="latest-image">
+						<a href="#current-playing"><i class="fas fa-play"></i></a>
+						<!--Song Image-->
+						<img src="images/latest-1.jpg">
+					</div>
+					<!--Song Details - Top-->
+					<div class="latest-detail">
+						<div class="latest-top">
+							<div id="latest-name" class="margin-r">Mercy</div>
+							<div><button type="button"><i class="fas fa-ellipsis-h">
+										<ul>
+											<li><i class="fas fa-play-circle margin-r-small"></i>Play Now</li>
+											<li><i class="fas fa-plus margin-r-small"></i>Add to Queue</li>
+											<li><i class="fas fa-bookmark margin-r-small"></i>Add to favourites</li>
+											<li><i class="fas fa-info-circle margin-r-small"></i>Get Info</li>
+										</ul>
+									</i></button></div>
+						</div>
+						<!--Song Details Bottom-->
+						<div class="latest-bottom">
+							<span id="latest-date">Jul 23, 2021</span>
+							<span id="latest-time">3.25</span>
+						</div>
+					</div>
+				</div>
+				<!--Latest Release Song-2-->
+				<div class="card card-b">
+					<div class="latest-image">
+						<a href="#current-playing"><i class="fas fa-play"></i></a>
+						<!--Song Image-->
+						<img src="images/latest-2.jpg">
+					</div>
+					<div class="latest-detail">
+						<div class="latest-top">
+							<div id="latest-name" class="margin-r">Shershaah</div>
+							<div><button type="button"><i class="fas fa-ellipsis-h">
+										<ul>
+											<li><i class="fas fa-play-circle margin-r-small"></i>Play Now</li>
+											<li><i class="fas fa-plus margin-r-small"></i>Add to Queue</li>
+											<li><i class="fas fa-bookmark margin-r-small"></i>Add to favourites</li>
+											<li><i class="fas fa-info-circle margin-r-small"></i>Get Info</li>
+										</ul>
+									</i></button></div>
+						</div>
+						<div class="latest-bottom">
+							<span id="latest-date">Jul 12, 2021</span>
+							<span id="latest-time">3:50</span>
+						</div>
+					</div>
+				</div>
+				<!--Latest Release Song-3-->
+				<div class="card card-c">
+					<div class="latest-image">
+						<a href="#current-playing"><i class="fas fa-play"></i></a>
+						<!--Song Image-->
+						<img src="images/latest-3.jpg">
+					</div>
+					<div class="latest-detail">
+						<div class="latest-top">
+							<div id="latest-name" class="margin-r">Do Vaari Jatt</div>
+							<div><button type="button"><i class="fas fa-ellipsis-h">
+										<ul>
+											<li><i class="fas fa-play-circle margin-r-small"></i>Play Now</li>
+											<li><i class="fas fa-plus margin-r-small"></i>Add to Queue</li>
+											<li><i class="fas fa-bookmark margin-r-small"></i>Add to favourites</li>
+											<li><i class="fas fa-info-circle margin-r-small"></i>Get Info</li>
+										</ul>
+									</i></button></div>
+						</div>
+						<div class="latest-bottom">
+							<span id="latest-date">Aug 18, 2021</span>
+							<span id="latest-time">4.34</span>
+						</div>
+					</div>
+				</div>
+				<!--Latest Release Song-4-->
+				<div class="card card-d">
+					<div class="latest-image">
+						<a href="#current-playing"><i class="fas fa-play"></i></a>
+						<!--Song Image-->
+						<img src="images/latest-4.jpg">
+					</div>
+					<div class="latest-detail">
+						<div class="latest-top">
+							<div id="latest-name" class="margin-r">Tere Naal</div>
+							<div><button type="button"><i class="fas fa-ellipsis-h">
+										<ul>
+											<li><i class="fas fa-play-circle margin-r-small"></i>Play Now</li>
+											<li><i class="fas fa-plus margin-r-small"></i>Add to Queue</li>
+											<li><i class="fas fa-bookmark margin-r-small"></i>Add to favourites</li>
+											<li><i class="fas fa-info-circle margin-r-small"></i>Get Info</li>
+										</ul>
+									</i></button></div>
+						</div>
+						<div class="latest-bottom">
+							<span id="latest-date">Jun 18, 2021</span>
+							<span id="latest-time">2.44</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Popular Artists Section-->
+			<h2 style="color: white">Popular Artists</h2>
+			<div class="popular-artists">
+				<div class="artist art-1">
+					<!--Play Button on Hover-->
+					<a href="artist.html"><i class="fab fa-google-play"></i></a>
+					<!--Song Image-->
+					<img src="images/artist-1.jpg">
+					<!--Song Author-->
+					<p>Arjit Singh</p>
+				</div>
+				<div class="artist art-2">
+					<a href="artist.html"><i class="fab fa-google-play"></i></a>
+					<!--Song Image-->
+					<img src="images/artist-2.jpg">
+					<p>Badshah</p>
+				</div>
+				<div class="artist art-3">
+					<a href="artist.html"><i class="fab fa-google-play"></i></a>
+					<!--Song Image-->
+					<img src="images/artist-3.jpg">
+					<p>Jubin Nautiyal</p>
+				</div>
+				<div class="artist art-4">
+					<a href="artist.html"><i class="fab fa-google-play"></i></a>
+					<!--Song Image-->
+					<img src="images/artist-4.jpg">
+					<p>Guru</p>
+				</div>
+				<div class="artist art-5">
+					<a href="artist.html"><i class="fab fa-google-play"></i></a>
+					<!--Song Image-->
+					<img src="images/artist-5.jpg">
+					<p>Udit Narayan</p>
+				</div>
+				<div class="artist art-6">
+					<a href="artist.html"><i class="fab fa-google-play"></i></a>
+					<!--Song Image-->
+					<img src="images/artist-6.jpg">
+					<p>B Praak</p>
+				</div>
+			</div>
+
+			<!-- Station Section-->
+			<div class="station">
+				<div class="station-individual sta-1">
+					<p>Happy Tunes</p>
+				</div>
+				<div class="station-individual sta-2">
+					<p>Jai Shri Krishna</p>
+				</div>
+				<div class="station-individual sta-3">
+					<p>Jhankar Beats</p>
+				</div>
+				<div class="station-individual sta-4">
+					<p>Party</p>
+				</div>
+				<div class="station-individual sta-5">
+					<p>Ghazal</p>
+				</div>
+				<div class="station-individual sta-6">
+					<p>Retro 70's</p>
+				</div>
+			</div>
+
+			<!--Mood Section-->
+			<div class="mood">
+				<div class="mood-individual mood-1"><img src="images/mood-1.jpg">
+					<p>Party</p>
+				</div>
+				<div class="mood-individual mood-2"><img src="images/mood-2.jpg">
+					<p>Electronic</p>
+				</div>
+				<div class="mood-individual mood-3"><img src="images/mood-3.jpg">
+					<p>Road Trip</p>
+				</div>
+			</div>
+
+			<!--Latest Songs-->
+			<h2 style="color: white">Latest English</h2>
+			<div class="latest-english">
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/eng-1.jpg">
+					<!--Song Details-->
+					<p>You Right</p>
+					<p>Jun 25, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/en-2.jpg">
+					<!--Song Details-->
+					<p>Stay</p>
+					<p>Jul 9, 2021</p>
+				</div>
+
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/en-3.jpg">
+					<!--Song Details-->
+					<p>Happier Than Ever</p>
+					<p>Jul 30, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/en-4.jpg">
+					<!--Song Details-->
+					<p>Don't Go Yet</p>
+					<p> Jul 23, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/en-5.jpg">
+					<!--Song Details-->
+					<p>good 4 u</p>
+					<p>May 14, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/en-6.jpg">
+					<!--Song Details-->
+					<p>Summer Of Love</p>
+					<p>Aug 20, 2021</p>
+				</div>
+			</div>
+
+			<!--Latest music-->
+			<h2 style="color: white">Latest Hindi</h2>
+			<div class="latest-english">
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/ma-1.JPG">
+					<!--Song Details-->
+					<p>Bell Bottom</p>
+					<p>Aug 19, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/ma-2.jpg">
+					<!--Song Details-->
+					<p>Kanta Laga</p>
+					<p>Sep 18, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/ma-3.jpg">
+					<!--Song Details-->
+					<p>Surror 2021</p>
+					<p>Jun 11, 2021</p>
+				</div>
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/ma-4.jpg">
+					<!--Song Details-->
+					<p>Bachpan Ka Pyaar</p>
+					<p>Aug 11, 2021</p>
+				</div>
+
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/ma-5.jpg">
+					<!--Song Details-->
+					<p>Chehre</p>
+					<p>Aug 27, 2021</p>
+				</div>
+
+				<div class="latest-en-individual">
+					<!--Song Image-->
+					<img src="images/ma-6.jpg">
+					<!--Song Details-->
+					<p>Thanaji</p>
+					<p>Jan 10, 2020</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Queue-->
+		<div class="queue-content" id="queue-content">
+			<!--Queue Top Includes- Queue Heading and Queue button-->
+			<div class="queue-top">
+				<h1 style="display: inline-block;">Queue</h1>
+				<button type="button">Queue<i class="fas fa-chevron-down">
+						<ul>
+							<li>Playlists</li>
+							<li>Favourite Songs</li>
+						</ul>
+					</i></button>
+			</div>
+
+			<!--Queue Bottom -->
+			<div class="queue-bottom">
+				<ol style="color: white">
+					<!--Individual Songs-->
+					<li>
+						<div class="queue-individual">
+							<!--Individual Songs Left Including image and Song Name and author-->
+							<div class="queue-left">
+								<div class="queue-image">
+									<!--Song Image-->
+									<img src="images/ma-4.jpg">
+								</div>
+								<!--Song Name-->
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Bachpan Ka Pyaar</p>
+									<p>Badshah, Aastha Gill</p>
+								</div>
+							</div>
+							<!--Heart Icon-->
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<!--The above comments also apply in below queue songs-->
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-5.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Chehre Title Track</p>
+									<p>Amitabh Bachan</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-6.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Mard Maratha</p>
+									<p>Kunal Ganjawala</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-3.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Surror 2021</p>
+									<p>Himesh Reshammiya</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-2.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Kanta Laga</p>
+									<p>Neha Kakkar, Yo Yo</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-1.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Bell Bottom</p>
+									<p>Zara Khan</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/latest-1.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Mercy</p>
+									<p>Badshah</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/latest-2.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Sheershah</p>
+									<p>B Praak</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/latest-3.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Do Vaari Jatt</p>
+									<p>Jordan Sandhu</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/latest-4.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Tere Naal</p>
+									<p>Shirley Shetia</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-1.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Bolna</p>
+									<p>Arjit Singh</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-2.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Saturday Saturday</p>
+									<p>Badshah</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-3.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Tum Hi Vaana</p>
+									<p>Jubin Nautiyal</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-4.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">High Rated Gabru</p>
+									<p>Guru Randhawa</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-5.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Mera Maan</p>
+									<p>Udit Narayan</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-6.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Filhaal 2</p>
+									<p>B Praak</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/eng-1.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">You Right</p>
+									<p>Doja Cat</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/en-2.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Stay</p>
+									<p>Lisa Loeb</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/en-3.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Happier Than Ever</p>
+									<p>Billie Eilish</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/en-4.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Don't Go Yet</p>
+									<p>Camila Cabello</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/en-5.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">good 4 u</p>
+									<p>Olivia Rodrigo</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/en-6.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Summer of love</p>
+									<p>Shawn Mendes</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-3.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Surror 2021</p>
+									<p>Himesh Reshmmiya</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/latest-4.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p>Tere Naal</p>
+									<p>Shirley Shetia</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/artist-1.jpg">
+								</div>
+								<div class="queue-name" style="color: white;">
+									<p id="q-song-name">Tum Hi Ho</p>
+									<p>Arjit Singh</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+					<li>
+						<div class="queue-individual">
+							<div class="queue-left">
+								<div class="queue-image">
+									<img src="images/ma-2.jpg">
+								</div>
+								<div class="queue-name" style="color: white; ">
+									<p id="q-song-name">Kanta Laga</p>
+									<p>Neha Kakkar, Yo Yo</p>
+								</div>
+							</div>
+							<div class="queue-heart"><i class="far fa-heart icon heart"></i></div>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</main>
+
+	<!--Current Playing Section-->
+	<!--Visible on Clicking the latest song
+        It is visible at bottom of the screen-->
+	<div id="current-playing" class="current-playing">
+
+		<!--Current Playing Left-Section*/
+            It includes Song Image, Name , Singer and Heart Icon-->
+		<div class="curr-left">
+			<div class="curr-image">
+				<!--Song Image-->
+				<img src="images/latest-2.jpg">
+			</div>
+			<!--Song Details-->
+			<div class="curr-details">
+				<!--Song Name-->
+				<div class="curr-name-1" style="font-weight: bolder;"> Sheershah</div>
+				<div class="curr-name-2">
+					<!--Author-->
+					<div class="singer-name">B Praak</div>
+					<!--Heart Icon-->
+					<i class="far fa-heart icon"></i>
+				</div>
+			</div>
+		</div>
+
+		<!--Current Playing Mid-Section
+            It includes Many Buttonslike pause and play, length of the song-->
+		<div class="curr-mid">
+			<div class="mid-top">
+				<!--Random Song Icon-->
+				<a href="#favourite"><i class="fas fa-random icon margin-r"></i></a>
+				<!--Step Backward Icon-->
+				<a href="#favourite"><i class="fas fa-step-backward icon margin-r"></i></a>
+				<!--Pause Icon-->
+				<a href="#favourite"><i class="far fa-pause-circle icon margin-r"></i></a>
+				<!--Step Forward Icon-->
+				<a href="#favourite"><i class="fas fa-step-forward icon margin-r"></i></a>
+				<!--Replay Icon-->
+				<a href="#favourite"><i class="fas fa-redo-alt icon margin-r"></i></a>
+			</div>
+
+			<!--Audio Length-->
+			<div class="mid-bottom">
+				<p style="padding: 0px; margin: 0px; display: inline-block;">1.39</p>
+				<input type="range" name="audio-time">
+
+				<p style="padding: 0px; margin: 0px; display: inline-block;">4.21</p>
+			</div>
+		</div>
+
+		<!--Current Playing Right-Section
+        It includes Miracast Icon, Volume Icon, and Playlist Icon-->
+		<div class="curr-right">
+			<div class="right-top">
+				<!--Playlist-->
+				<i class="fas fa-list margin-r"></i>
+				<!--Wireless Display-->
+				<i class="fas fa-tv margin-r"></i>
+				<!--Volume Icon-->
+				<i class="fas fa-volume-up margin-r"></i>
+				<input type="range" name="volume">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
